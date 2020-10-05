@@ -24,7 +24,7 @@ $ sudo apt install conky-all
 Execute python script:
 
 ```bash
-$ ./scripy.py
+$ ./script.py
 ```
 
 ## todo
