@@ -21,6 +21,12 @@ Open your preferred terminal:
 $ sudo apt install conky-all
 ```
 
+Execute python script:
+
+```bash
+$ ./scripy.py
+```
+
 ## todo
 
 - add to startup (py script)
