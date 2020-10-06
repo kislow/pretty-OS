@@ -2,7 +2,8 @@
 
 ## Motivation
 
-Motivated by my love for dark themes with saturated colors.
+I like dark themes with saturated colors.
+The say "sharing is caring"
 
 ## Example
 
