@@ -15,7 +15,7 @@ Motivated by my love for dark themes with saturated colors.
 Open your favourite terminal and execute the following command:
 
 ```bash
-$ ./vscode-extension-install.sh
+$ ./vscode-izzo-install.sh
 ```
 ## Change Theme
 
