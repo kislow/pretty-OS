@@ -1,6 +1,6 @@
 
 conky.config = {
-	
+
 	update_interval = 1,
 	cpu_avg_samples = 2,
 	net_avg_samples = 2,
@@ -26,7 +26,7 @@ conky.config = {
 	draw_borders = false,
 	draw_graph_borders = false,
 	use_xft = true,
-	font = 'Ubuntu Mono:size=13',
+	font = 'Ubuntu Mono:size=12',
 	xftalpha = 0.8,
 	uppercase = false,
 	default_color = 'white',
@@ -36,13 +36,13 @@ conky.config = {
 
 };
 conky.text = [[ ${color #0CFACB}
-${voffset -10}${font UbuntuMono Nerd Font Mono:bold:size=18}${alignc}~My Name~
-${voffset 8}${font UbuntuMono Nerd Font Mono:bold:size=18}${alignc}${time %H:%M:%S}${font}
+${voffset -10}${font Ubuntu Mono:bold:size=18}${alignc}~Izzo Conky~
+${voffset 8}${font Ubuntu Mono:bold:size=18}${alignc}${time %H:%M:%S}${font}
 ${voffset 4}${alignc}${time %A %B %d, %Y}
 ${font}${voffset -4}$color
 
-${font UbuntuMono Nerd Font Mono:bold:size=12}TOP PROCESSES ${hr 2}
-${font UbuntuMono Nerd Font Mono:normal:size=11}${color green}|Name| $alignr |PID| |CPU%| |MEM%|${font UbuntuMono Nerd Font Mono:normal:size=11} ${color #F5B78E}
+${font Ubuntu Mono:bold:size=12}TOP PROCESSES ${hr 2}
+${font Ubuntu Mono:normal:size=11}${color green}|Name| $alignr |PID| |CPU%| |MEM%|${font Ubuntu Mono:normal:size=11} ${color #F5B78E}
 ${top name 1:} $alignr ${top pid 1} ${top cpu 1}% ${top mem 1}%
 ${top name 2} $alignr ${top pid 2} ${top cpu 2}% ${top mem 2}%
 ${top name 3} $alignr ${top pid 3} ${top cpu 3}% ${top mem 3}%
@@ -54,29 +54,29 @@ ${top name 8} $alignr ${top pid 8} ${top cpu 8}% ${top mem 8}%
 ${top name 9} $alignr ${top pid 9} ${top cpu 9}% ${top mem 9}%
 ${top name 10} $alignr ${top pid 10} ${top cpu 10}% ${top mem 10}%$color
 
-${font UbuntuMono Nerd Font Mono:bold:size=12}CPU ${hr 2}
-${font UbuntuMono Nerd Font Mono:normal:size=11}${color #FA0C71}${execi 1000 grep model /proc/cpuinfo | cut -d : -f2 | tail -1 | sed 's/\s//'}
-${font UbuntuMono Nerd Font Mono:normal:size=11}${cpugraph cpu1}
+${font Ubuntu Mono:bold:size=12}CPU ${hr 2}
+${font Ubuntu Mono:normal:size=11}${color #FA0C71}${execi 1000 grep model /proc/cpuinfo | cut -d : -f2 | tail -1 | sed 's/\s//'}
+${font Ubuntu Mono:normal:size=11}${cpugraph cpu1}
 [CPU]: ${cpu cpu1}% ${cpubar cpu1}$color
 
-${font UbuntuMono Nerd Font Mono:bold:size=12}MEMORY ${hr 2} 
-${font UbuntuMono Nerd Font Mono:normal:size=11}${color #FA0C0C}[RAM]: $alignc $mem / $memmax $alignr $memperc%
+${font Ubuntu Mono:bold:size=12}MEMORY ${hr 2}
+${font Ubuntu Mono:normal:size=11}${color #FA0C0C}[RAM]: $alignc $mem / $memmax $alignr $memperc%
 $membar
 [SWAP]: $alignc ${swap} / ${swapmax} $alignr ${swapperc}%
 ${swapbar}$color
 
-${font UbuntuMono Nerd Font Mono:bold:size=12}DISK USAGE ${hr 2}${color #FA0C0C}
-${font UbuntuMono Nerd Font Mono:normal:size=11}[PATH:/] $alignc ${fs_used /} / ${fs_size /} $alignr ${fs_used_perc /}% ${fs_bar /}$color
+${font Ubuntu Mono:bold:size=12}DISK USAGE ${hr 2}${color #FA0C0C}
+${font Ubuntu Mono:normal:size=11}[PATH:/] $alignc ${fs_used /} / ${fs_size /} $alignr ${fs_used_perc /}% ${fs_bar /}$color
 
 ${font Ubuntu:bold:size=10}NETWORK ${hr 2}${color yellow}
-${font UbuntuMono Nerd Font Mono:normal:size=11}[Default Ethernet IP]:${alignr}${execi 1000 ip a | grep inet | grep enx3448edc63ab3 | grep -vw lo | grep -v inet6 | cut -d \/ -f1 | sed 's/[^0-9\.]*//g'}   
+${font Ubuntu Mono:normal:size=11}[Default Ethernet IP]:${alignr}${execi 1000 ip a | grep inet | grep enx3448edc63ab3 | grep -vw lo | grep -v inet6 | cut -d \/ -f1 | sed 's/[^0-9\.]*//g'}
 [External IP]:${alignr}${execi 1000  wget -q -O- http://ipecho.net/plain; echo}
-${font UbuntuMono Nerd Font Mono:normal:size=11}[Download]: ${downspeed enp0s3} ${alignr}[Upload]: ${upspeed enp0s3} 
+${font Ubuntu Mono:normal:size=11}[Download]: ${downspeed enp0s3} ${alignr}[Upload]: ${upspeed enp0s3}
 ${downspeedgraph enp0s3 80,130 } ${upspeedgraph enp0s3}$color
 ${voffset -100}
 
-${font UbuntuMono Nerd Font Mono:bold:size=12}SYSTEM ${hr 2}${color #0CC8FA}
-${font UbuntuMono Nerd Font Mono:normal:size=11}$alignc|$sysname $kernel $machine|
+${font Ubuntu Mono:bold:size=12}SYSTEM ${hr 2}${color #0CC8FA}
+${font Ubuntu Mono:normal:size=11}$alignc|$sysname $kernel $machine|
 [Host]:$alignr$nodename
 [Uptime]:$alignr$uptime
 [File System]: $alignr${fs_type}

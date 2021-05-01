@@ -1,10 +1,10 @@
-# Conky - Real time system info for your Linux desktop 
+# Conky - Real time system info for your Linux desktop
 
 Conky is a graphical tool for Linux that displays system information to your screen in real time.
 
 ## Motivation
 
-One can use conky-manager to tweak system info, however I prefer a light weight solution without having to install a bunch of dependcies.
+One can use conky-manager to tweak system info, however I prefer a light weight solution without having to install a bunch of dependencies.
 Hence, I have installed conky and tweaked the .conkyrc file.
 
 ## Example
@@ -15,23 +15,11 @@ Hence, I have installed conky and tweaked the .conkyrc file.
 
 ## Getting Started
 
-Open your preferred terminal:
+Clone repository to your local device and run the following command:
 
 ```bash
-$ sudo apt install conky-all
+$ make install
 ```
-
-Execute python script:
-
-```bash
-$ ./script.py
-```
-
-## todo
-
-- add to startup (py script)
-- customise conky (cp /etc/conky/conky.conf ~/.conkyrc)
-- copy /gitlab/conkyrc/conkyrc to ~/.conkyrc
 
 ## License
 
