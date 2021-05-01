@@ -1,6 +1,6 @@
 # pretty-OS
- 
-This repository contains a collection of desktop beautifiers for your operating system.
+
+This repository contains a collection of desktop beautifiers for your linux operating systems.
 
 ## Motivation
 
