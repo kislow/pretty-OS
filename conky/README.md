@@ -7,7 +7,7 @@ Conky is a graphical tool for Linux that displays system information to your scr
 One can use conky-manager to tweak system info, however I prefer a light weight solution without having to install a bunch of dependencies.
 Hence, I have installed conky and tweaked the .conkyrc file.
 
-## Example
+## Look
 
 <p align="left">
   <img src="./conky-img.png" width="350" title="My Personal Conky Theme">
