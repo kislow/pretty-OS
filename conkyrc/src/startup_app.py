@@ -19,5 +19,5 @@ if not os.path.exists(file):
             launch = launch+command if launch == "Exec=" else launch
             out.write(launch+"\n")
 else:
-    print("file exists, choose another name")
+    print("file already exists and will not be overwritten!")
     sys.exit(0)
