@@ -9,8 +9,8 @@ Attempting to minimise the amount of time I repeadly invest in beautifying my sy
 ## Look
 
 <p align="left">
-  <img srcset="./vscode/vscode-izzo-theme.png" width="200" title="My Personal Conky Theme">
-  <img src="./plank/izzo-desktop.png" width="350" title="My plank dock">
+<img src="./vscode/vscode-izzo-theme.png" width="200" title="My Personal Conky Theme">
+<img src="./plank/izzo-desktop.png" width="350" title="My plank dock">
 <img src="./conky/conkyrc-sensored.png" width="100" title="My Personal Conky Theme">
 </p>
 
