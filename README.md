@@ -4,7 +4,7 @@ This repository contains a collection of desktop beautifiers for your linux oper
 
 ## Motivation
 
-Trying to minimise the amount of time I repeadly invest in beautifying my system, especially after getting a new device or re-installing my OS.
+Attempting to minimise the amount of time I repeadly invest in beautifying my system OS.
 
 ## Conkyrc
 
