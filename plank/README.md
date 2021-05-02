@@ -6,7 +6,7 @@ just what a dock needs and absolutely nothing more.
 ## Example
 
 <p align="left">
-  <img src="./izz-desktop.png" width="350" title="My plank dock">
+  <img src="./izzo-desktop.png" width="350" title="My plank dock">
 </p>
 
 ## Getting Started
