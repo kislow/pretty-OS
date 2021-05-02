@@ -21,6 +21,12 @@ Clone repository to your local device and run the following command:
 $ make install
 ```
 
+To remove conky, run the following command:
+
+```bash
+$ make remove
+```
+
 ## License
 
 This repository is published under the [MIT License](https://opensource.org/licenses/MIT)

@@ -11,9 +11,15 @@ verify: ## verify desktop environment
 
 install: ## Installing conky
 	@echo "Installing conky, sudo rights required!"
-	@sudo apt install conky -y
+	@sudo apt update && sudo apt install conky -y
 	@cp conkyrc $(CONKY_PATH)
 	@$(PYTHON) ./src/startup_app.py conky /usr/bin/conky
 	@echo "PLEASE RESTART YOUR SYSTEM FOR CHANGES TO TAKE EFFECT!"
 
-.PHONY: help verify install
+remove: ## remove conky
+	@echo "Removing conky"
+	@sudo apt remove conky -y && sudo apt autoremove -y && rm $(CONKY_PATH)
+	@echo "PLEASE RESTART YOUR SYSTEM FOR CHANGES TO TAKE EFFECT!"
+
+
+.PHONY: help verify install remove
