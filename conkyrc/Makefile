@@ -1,5 +1,6 @@
 PYTHON = /usr/bin/python3
 CONKY_PATH = $(HOME)/.conkyrc
+CONKY_AUTOSTART = $(HOME)/.config/autostart
 
 # Show this help.
 help: ## Show this help.
@@ -18,8 +19,7 @@ install: ## Installing conky
 
 remove: ## remove conky
 	@echo "Removing conky"
-	@sudo apt remove conky -y && sudo apt autoremove -y && rm $(CONKY_PATH)
+	@sudo apt remove conky -y && sudo apt autoremove -y && rm $(CONKY_PATH) && rm $(CONKY_AUTOSTART)/conky.desktop
 	@echo "PLEASE RESTART YOUR SYSTEM FOR CHANGES TO TAKE EFFECT!"
-
 
 .PHONY: help verify install remove
