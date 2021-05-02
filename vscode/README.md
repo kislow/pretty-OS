@@ -1,11 +1,8 @@
-# Visual Studio Code Theme + Extensions 
+# Visual Studio Code Theme + Extensions
 
-## Motivation
+Install VSCode + dark theme and other extensions
 
-I like dark themes with saturated colors.
-The say "sharing is caring"
-
-## Example
+## Look
 
 <p align="left">
   <img src="./vscode-izzo-theme.png" width="350" title="My Personal Conky Theme">
@@ -13,10 +10,10 @@ The say "sharing is caring"
 
 ## Getting Started
 
-Open your favourite terminal and execute the following command:
+Clone repository and execute the following command:
 
 ```bash
-$ ./vscode-izzo-install.sh
+$ make install
 ```
 ## Change Theme
 
