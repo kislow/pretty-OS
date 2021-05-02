@@ -10,7 +10,7 @@ Hence, I have installed conky and tweaked the .conkyrc file.
 ## Example
 
 <p align="left">
-  <img src="./conkyrc-sensored.png" width="350" title="My Personal Conky Theme">
+  <img src="./conky-img.png" width="350" title="My Personal Conky Theme">
 </p>
 
 ## Getting Started
