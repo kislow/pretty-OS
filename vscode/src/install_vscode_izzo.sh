@@ -13,7 +13,7 @@ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/v
 sudo apt update -y && apt install code
 
 #install extensions
-cat extensions.txt | while read extension || [[ -n $extension ]];
+cat ./src/extensions.txt | while read extension || [[ -n $extension ]];
 do
   code --install-extension $extension --force
 done

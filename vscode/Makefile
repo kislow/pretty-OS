@@ -15,4 +15,9 @@ install: ## Installing vscode and its extensions
 	@$(BASH) ./src/install_vscode_izzo.sh
 	@echo "PLEASE RESTART YOUR SYSTEM FOR CHANGES TO TAKE EFFECT!"
 
-.PHONY: help verify install
+remove: ## remove all vscode extensions
+	@echo "Removing vscode extensions..."
+	@rm -rf ~/.vscode/extensions
+	@echo "VSCode extensions successfully removed!"
+
+.PHONY: help verify install remove

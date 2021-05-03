@@ -12,9 +12,18 @@ Install VSCode + dark theme and other extensions
 
 Clone repository and execute the following command:
 
+
 ```bash
 $ make install
 ```
+
+To remove vscode extensions, run the following command:
+
+```bash
+$ make remove
+```
+
+Note: `Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)).` needs to be fixed manually.
 ## Change Theme
 
 ```html
