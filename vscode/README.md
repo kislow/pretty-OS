@@ -5,7 +5,7 @@ Install VSCode + ayu dark lighter theme
 ## Look
 
 <p align="left">
-  <img src="./ayu-dark-theme.png" width="350" title="My Personal Conky Theme">
+  <img src="./ayu-dark-theme.png" width="350" title="VSCode Theme">
 </p>
 
 ## Getting Started
