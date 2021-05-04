@@ -1,6 +1,4 @@
 BASH = /bin/bash
-CONKY_PATH = $(HOME)/.conkyrc
-CONKY_AUTOSTART = $(HOME)/.config/autostart
 
 # Show this help.
 help: ## Show this help.
@@ -12,7 +10,7 @@ verify: ## verify desktop environment
 
 install: ## Installing vscode and its extensions
 	@echo "Installing VSCode izzo extensions, sudo rights required!"
-	@$(BASH) ./src/install_vscode_izzo.sh
+	@$(BASH) ./src/install_theme.sh
 	@echo "PLEASE RESTART YOUR SYSTEM FOR CHANGES TO TAKE EFFECT!"
 
 remove: ## remove all vscode extensions
