@@ -9,9 +9,9 @@ Attempting to minimise the amount of time I repeadly invest in beautifying my OS
 ## Look
 
 <p align="left">
-    <img src="./vscode/ayu-dark-theme.png" width="400" title="My Personal Conky Theme">
-    <img src="./plank/izzo-desktop.png" width="350" title="My plank dock">
-    <img src="./conky/conky-img.png" width="100" title="My Personal Conky Theme">
+    <img src="./vscode/ayu-dark-theme.png" width="600" title="Ayu Dark Theme"><br/>
+    <img src="./plank/izzo-desktop.png" width="600" title="Plank dock"><br/>
+    <img src="./conky/conky-img.png" width="200" title="Personal Conky Theme">
 </p>
 
 ## License
