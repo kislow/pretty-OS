@@ -1,10 +1,12 @@
 # Pretty-OS
 
 This repository contains a collection of desktop beautifiers for your linux operating systems.
+While these scripts have been tested only on **Ubuntu**, they ought to work on every debian-based system as well.
+
 
 ## Motivation
 
-Attempting to minimise the amount of time I repeadly invest in beautifying my OS system.
+Trying to minimise the amount of time I spend constantly tweaking my OS.
 
 ## Look
 
