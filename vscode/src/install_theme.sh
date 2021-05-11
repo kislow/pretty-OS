@@ -29,3 +29,4 @@ fi
 code --install-extension divola.ayu-dark-lighter --force
 jq '."workbench.colorTheme" = "Ayu Dark Lighter"' ~/.config/Code/User/settings.json > tmp.$$.json &&  mv -f tmp.$$.json ~/.config/Code/User/settings.json
 echo "Restart VSCode for changes to take effect!"
+
