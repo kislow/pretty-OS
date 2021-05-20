@@ -11,7 +11,7 @@ verify: ## verify desktop environment
 install: ## Installing vscode and its extensions
 	@echo "Installing VSCode izzo extensions, sudo rights required!"
 	@$(BASH) ./src/install_theme.sh
-	@echo "PLEASE RESTART YOUR SYSTEM FOR CHANGES TO TAKE EFFECT!"
+	@echo "YOU MAY NEED TO RESTART VSCODE FOR CHANGES TO TAKE EFFECT!"
 
 remove: ## remove all vscode extensions
 	@echo "Removing vscode extensions..."
