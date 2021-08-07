@@ -3,7 +3,7 @@
 code_version=$(code --version | awk '{print $1; exit}')
 jq_version=$(jq --version)
 
-if [ $code_version -ne 0 ]; then
+if [[ $code_version =~ "not found" ]] || [[ $code_version -ne 0 ]]; then
   # Update packages and install dependencies
   sudo apt update -y && apt install software-properties-common apt-transport-https wget
   #import the Microsoft GPG key
